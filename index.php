@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
-$password = "alexkite";
+$password = "passpagina";
 if ($_POST['password'] != $password) { 
 ?>
 <center>
@@ -29,7 +29,7 @@ if ($_POST['password'] != $password) {
 	<div id="player"></div>
 	</center><br>
   <script>
-var player = new Clappr.Player({source: "http://212.237.53.243:8080/live/alex/1234/298.m3u8", parentId: "#player"});
+var player = new Clappr.Player({source: "http://ip:puerto/live/user/pass/ncanal.m3u8", parentId: "#player"});
 </script>
 <?php
 error_reporting(E_ALL);
